@@ -9,11 +9,22 @@
 <body class="bg-gray-900 text-white font-sans">
 
   <!-- Header / Hero -->
-  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
-    <h1 class="text-5xl font-bold mb-4">Your Name</h1>
+<h1 class="text-5xl font-bold mb-4">Professor Killz</h1>
+
     <p class="text-xl text-gray-300 mb-6">Professional Music Producer & Sound Engineer</p>
     <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full">Book a Session</a>
-  </section>
+  </section><style>
+  .neon-text {
+    font-family: 'Orbitron', sans-serif;
+    color: #0ff;
+    text-shadow:
+      0 0 5px #0ff,
+      0 0 10px #0ff,
+      0 0 20px #0ff,
+      0 0 40px #0ff;
+  }
+</style>
+
 
   <!-- About -->
   <section id="about" class="py-20 px-6 max-w-4xl mx-auto text-center">
@@ -76,7 +87,7 @@
 
   <!-- Footer -->
   <footer class="py-6 text-center text-gray-400 bg-gray-900">
-    <p>© 2025 Your Name. All Rights Reserved.</p>
+    <p>© 2025 <p>© 2025 Professor Killz. All Rights Reserved.</p> All Rights Reserved.</p>
   </footer>
 
 </body>

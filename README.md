@@ -23,7 +23,18 @@
       0 0 20px #0ff,
       0 0 40px #0ff;
   }
+</style><style>
+  .neon-text {
+    font-family: 'Orbitron', sans-serif;
+    color: #0ff;
+    text-shadow:
+      0 0 5px #0ff,
+      0 0 10px #0ff,
+      0 0 20px #0ff,
+      0 0 40px #0ff;
+  }
 </style>
+
 
 
   <!-- About -->

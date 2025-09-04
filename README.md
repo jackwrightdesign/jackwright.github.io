@@ -34,6 +34,46 @@
       0 0 40px #0ff;
   }
 </style>
+<h1 class="text-5xl font-bold mb-4 neon-text">Professor Killz</h1>
+#39ff14<style>
+  .neon-text {
+    font-family: 'Orbitron', sans-serif;
+    color: #0ff;
+    text-shadow:
+      0 0 5px #0ff,
+      0 0 10px #0ff,
+      0 0 20px #0ff,
+      0 0 40px #0ff;
+    animation: flicker 1.5s infinite alternate;
+  }
+
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+      text-shadow:
+        0 0 5px #0ff,
+        0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff;
+    }
+    50% {
+      opacity: 0.8;
+      text-shadow:
+        0 0 2px #0ff,
+        0 0 5px #0ff,
+        0 0 10px #0ff,
+        0 0 20px #0ff;
+    }
+    100% {
+      opacity: 1;
+      text-shadow:
+        0 0 5px #0ff,
+        0 0 15px #0ff,
+        0 0 30px #0ff,
+        0 0 50px #0ff;
+    }
+  }
+</style>
 
 
 
